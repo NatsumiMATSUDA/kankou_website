@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  /*background-color: black;*/
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #e6e6e6;
+}
+
+.hero {
+  background-image: url("images/stovefire2.png");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  padding: 30px 4% 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed; /*絶対位置で場所を指定*/
+  top: 0; /*topから0pxのところに配置したい*/
+  width: 100%;
+  display: flex; /*子要素のレイアウトをコントロールできるように！*/
+  align-items: center;
+}
+
+h1 {
+  margin: 0; padding: 0;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  margin: 0 0 0 auto; /*上右下左の順に指定できる。左をautoにすることで自動的に右に寄せてくれる*/
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 0 0 15px;
+  font-size: 14px;
+}
+
+p {
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+
+/*
+.hero{
+  width: 100vw;
+  height: 70%;
+}
+
+.hero__image {
+  background-image: url("images/stovefire2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.hero h2{
+  top: 25%;
+  left: 39%;
+}
+
+.hero p{
+  top: 25%;
+  left: 39%;
+}
+
+.main{
+
+}
+
+.footer{
+
+}
+*/
