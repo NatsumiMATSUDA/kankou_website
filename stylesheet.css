@@ -62,10 +62,14 @@ h2 {
 }
 
 footer {
-  position: fixed;
-  top: 100%;
+  padding: 15px;
+  height: 150px;
   width: 100%;
   background-color: blue;
+}
+
+h3 {
+  margin: 0;
 }
 
 /*
