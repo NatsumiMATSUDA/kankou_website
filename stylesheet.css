@@ -11,13 +11,6 @@ body{
   background-color: #e6e6e6;
 }
 
-.hero {
-  background-image: url("images/stovefire2.png");
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-}
-
 header {
   padding: 30px 4% 10px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -53,18 +46,27 @@ li {
   font-size: 14px;
 }
 
-p {
-  display: inline-block;
-  text-align: center;
-  vertical-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  font-size: 30px;
-  letter-spacing: 0.1em;
+.main-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('images/stovefire2.png')top center/ cover no-repeat;
 }
 
+h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+  color: #fff;
+}
+
+footer {
+  position: fixed;
+  top: 100%;
+  width: 100%;
+  background-color: blue;
+}
 
 /*
 .hero{
