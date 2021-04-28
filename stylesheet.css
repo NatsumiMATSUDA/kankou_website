@@ -89,7 +89,6 @@ li {
 
 .repair {
   height: 380px;
-  background-color: #2613ac;
   background: linear-gradient(#000, #2613ac);
 }
 
@@ -130,6 +129,37 @@ footer {
 h3 {
   margin: 0;
 }
+
+.area {
+  height: 380px;
+  background: rgba(38,19,172,0.8);
+  align-items: center;
+}
+
+.area h2 {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.access {
+  height: 380px;
+  background: linear-gradient(#2613ac, #000);
+  align-items: center;
+}
+
+
+.access h2 {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+
+
+
 
 /*
 .hero{
