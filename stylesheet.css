@@ -119,16 +119,7 @@ li {
 }
 
 
-footer {
-  padding: 15px;
-  height: 150px;
-  width: 100%;
-  background-color: blue;
-}
 
-h3 {
-  margin: 0;
-}
 
 .area {
   height: 380px;
@@ -144,7 +135,7 @@ h3 {
 }
 
 .access {
-  height: 380px;
+  height: 500px;
   background: linear-gradient(#2613ac, #000);
   align-items: center;
 }
@@ -157,6 +148,24 @@ h3 {
   text-align: center;
 }
 
+.access__content {
+  display: flex;
+}
+
+
+
+
+
+footer {
+  padding: 15px;
+  height: 150px;
+  width: 100%;
+  background-color: blue;
+}
+
+.footer h3 {
+  margin: 0;
+}
 
 
 
