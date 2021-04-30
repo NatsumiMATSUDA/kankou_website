@@ -134,6 +134,11 @@ li {
   text-align: center;
 }
 
+.products {
+  height: 600px;
+}
+
+
 .access {
   height: 500px;
   background: linear-gradient(#2613ac, #000);
