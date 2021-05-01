@@ -138,6 +138,13 @@ li {
   height: 600px;
 }
 
+.products h2 {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
 
 .access {
   height: 500px;
