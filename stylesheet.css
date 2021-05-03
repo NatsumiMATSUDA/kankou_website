@@ -11,19 +11,37 @@ body{
   /*background-color: #e6e6e6;*/
 }
 
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 100vh auto 380px 380px 600px 500px auto 150px; /*縦方向の要素のサイズの指定*/
+  grid-template-columns: 50px 1fr 50px;/*横方向の要素のサイズの指定*/
+  grid-template-areas:
+  "box1 box1 box1"/*header*/
+  "box2 box2 box2"/*main visual*/
+  "box3 box4 box3"/*about*/
+  "box3 box5 box3"/*repair*/
+  "box3 box6 box3"/*area*/
+  "box3 box7 box3"/*products*/
+  "box3 box8 box3"/*access*/
+  "box3 box9 box3"/*contact*/
+  "box10 box10 box10"/*footer*/;
+}
+
+
 header {
+  grid-area: box1;
   padding: 30px 4% 10px;
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed; /*絶対位置で場所を指定*/
   top: 0; /*topから0pxのところに配置したい*/
-  width: 100%;
   display: flex; /*子要素のレイアウトをコントロールできるように！*/
   align-items: center;
   z-index: 99;
 }
 
 h1 {
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
   font-size: 20px;
 }
 
@@ -48,10 +66,11 @@ li {
 }
 
 .main-visual {
-  height: 100vh;
+  grid-area: box2;
+  /* height: 100vh; */
   background: url('images/stovefire2.png') center/ cover no-repeat;
   align-items: center;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .main-visual a {
@@ -74,9 +93,12 @@ li {
   color: #fff;
 }
 
+.about {
+  grid-area: box4;
+}
 
 .repair {
-  height: 380px;
+  grid-area: box5;
   background: linear-gradient(#000, #2613ac);
 }
 
@@ -88,7 +110,6 @@ li {
 }
 
 .repair__content {
-  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -110,7 +131,7 @@ li {
 
 
 .area {
-  height: 380px;
+  grid-area: box6;
   background: rgba(38,19,172,0.8);
   align-items: center;
 }
@@ -123,7 +144,7 @@ li {
 }
 
 .products {
-  height: 600px;
+  grid-area: box7;
 }
 
 .products h2 {
@@ -135,7 +156,7 @@ li {
 
 
 .access {
-  height: 500px;
+  grid-area: box8;
   background: linear-gradient(#2613ac, #000);
   align-items: center;
 }
@@ -152,14 +173,13 @@ li {
   display: flex;
 }
 
-
-
-
+.contact {
+  grid-area: box9;
+}
 
 footer {
+  grid-area: box10;
   padding: 15px;
-  height: 150px;
-  width: 100%;
   background-color: blue;
 }
 
