@@ -100,11 +100,13 @@ li {
 }
 
 .about {
-  grid-area: box4;
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
 }
 
 .repair {
-  grid-area: box5;
+  grid-row: 4 / 5;
+  grid-column: 1 / 2;
   background: linear-gradient(#000, #2613ac);
 }
 
@@ -137,7 +139,8 @@ li {
 
 
 .area {
-  grid-area: box6;
+  grid-row: 5 / 6;
+  grid-column: 1 / 2;
   background: rgba(38,19,172,0.8);
   align-items: center;
 }
@@ -150,7 +153,8 @@ li {
 }
 
 .products {
-  grid-area: box7;
+  grid-row: 6 / 7;
+  grid-column: 1 / 2;
 }
 
 .products h2 {
@@ -162,7 +166,8 @@ li {
 
 
 .access {
-  grid-area: box8;
+  grid-row: 7 / 8;
+  grid-column: 1 / 2;
   background: linear-gradient(#2613ac, #000);
   align-items: center;
 }
@@ -180,11 +185,13 @@ li {
 }
 
 .contact {
-  grid-area: box9;
+  grid-row: 8 / 9;
+  grid-column: 1 / 2;
 }
 
 footer {
-  grid-area: box10;
+  grid-row: 9 / 10;
+  grid-column: 1 / 2;
   padding: 15px;
   background-color: blue;
 }
