@@ -3,7 +3,7 @@
 }
 
 body{
-  background-color: grey;
+  background-color: black;
   color: white;
   margin: 0;
   padding: 0;
@@ -15,14 +15,17 @@ body{
   width: 100vw;
   display: grid;
   grid-template-rows: auto 100vh auto 380px 380px 600px 500px auto 150px; /*縦方向の要素のサイズの指定(横線を定義)*/
-  grid-template-columns: 100px 1fr 100px;
+  grid-template-columns: 100vw;
+}
+
+.container {
+  padding: 30px 5px 30px 5px;
 }
 
 
 header {
   width: 100%;
   grid-row: 1 / 2;
-  grid-column: 1 / 4;
   padding: 30px 50px 10px;
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed; /*絶対位置で場所を指定*/
@@ -69,7 +72,6 @@ h2 {
 
 .main-visual {
   grid-row: 2 / 3;
-  grid-column: 1 / 4;
   /* height: 100vh; */
   background: url('images/stovefire2.png') center/ cover no-repeat;
   align-items: center;
@@ -89,12 +91,10 @@ h2 {
 
 .about {
   grid-row: 3 / 4;
-  grid-column: 1 / 2;
 }
 
 .repair {
   grid-row: 4 / 5;
-  grid-column: 1 / 2;
   background: linear-gradient(#000, #2613ac);
 }
 
@@ -121,19 +121,16 @@ h2 {
 
 .area {
   grid-row: 5 / 6;
-  grid-column: 1 / 2;
   background: rgba(38,19,172,0.8);
   align-items: center;
 }
 
 .products {
   grid-row: 6 / 7;
-  grid-column: 1 / 2;
 }
 
 .access {
   grid-row: 7 / 8;
-  grid-column: 1 / 2;
   background: linear-gradient(#2613ac, #000);
   align-items: center;
 }
@@ -144,12 +141,10 @@ h2 {
 
 .contact {
   grid-row: 8 / 9;
-  grid-column: 1 / 2;
 }
 
 footer {
   grid-row: 9 / 10;
-  grid-column: 1 / 2;
   padding: 15px;
   background-color: blue;
 }
