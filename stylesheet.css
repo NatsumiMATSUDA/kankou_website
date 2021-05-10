@@ -12,7 +12,6 @@ body{
 }
 
 .wrapper {
-  width: 100vw;
   display: grid;
   grid-template-rows: auto 100vh auto 380px 380px 600px 500px auto 150px; /*縦方向の要素のサイズの指定(横線を定義)*/
   grid-template-columns: 100vw;
@@ -74,6 +73,7 @@ h2 {
   grid-row: 2 / 3;
   /* height: 100vh; */
   background: url('images/stovefire2.png') center/ cover no-repeat;
+  background-size: cover;
   align-items: center;
   /* margin-bottom: 100px; */
 }
@@ -95,20 +95,36 @@ h2 {
 
 .repair {
   grid-row: 4 / 5;
-  background: linear-gradient(#000, #2613ac);
+  /*background: linear-gradient(#000, #2613ac);グラデーション*/
+  background: url('images/repairimage.jpg') center/ cover no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.repair::before {
+  content: '';
+  /* ↓暗いオーバーレイを半透明で配置 */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* ↓全体を覆うように配置 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .repair__content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform:translateY(-50%)translateX(-50%);
+  -webkit-　　　
+  transform:translateY(-50%)translateX(-50%);
+  margin:auto;
 }
 
-.repair__content__img {
-  width: 360px;
-  height: auto;
-}
 
 .repair__content__text {
   width: 49%;
