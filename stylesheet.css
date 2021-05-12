@@ -143,6 +143,11 @@ h2 {
 
 .access__content {
   display: flex;
+  justify-content: center;
+}
+
+.access__content p {
+  padding:  0 10px 0 10px;
 }
 
 .contact {
