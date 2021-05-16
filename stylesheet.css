@@ -14,7 +14,6 @@ body{
 .wrapper {
   display: grid;
   grid-template-rows: auto 100vh auto 380px 380px 600px 500px auto 150px; /*縦方向の要素のサイズの指定(横線を定義)*/
-  grid-template-columns: 100vw;
 }
 
 .container {
