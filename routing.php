@@ -3,4 +3,10 @@
 //・ ロジックの操作を行える（＝「~完了画面」を作らなくて済む！）
 //・ get/postによって動作を変える分岐ができる。
 
-require_once('/index.php');
+include_once dirname(__FILE__)."controllers/top.html";
+
+Route::add('/', function() {
+
+})
+
+?>
