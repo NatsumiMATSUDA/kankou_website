@@ -25,7 +25,7 @@
             <li><a href="#">出張範囲</a></li>
             <li><a href="#">製品販売</a></li>
             <li><a href="#">アクセス</a></li>
-            <li><a href="#">お問い合わせ</a></li>
+            <li><a href="contact/contact.php">お問い合わせ</a></li>
           </ul>
         </nav>
       </header>
@@ -97,6 +97,49 @@
           <p>浦和駅より徒歩6分</p>
         </div>
 
+      </div>
+
+      <div class="container contact">
+        <h2>お問い合わせ</h2>
+        <!-- お問い合わせフォーム -->
+        <form class="contact__form" action="index.html" method="post">
+          <div class="form-group">
+            <label for="exampleInputEmail1">メールアドレス</label>
+            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="メールアドレス">
+            <small id="emailHelp" class="form-text text-muted">メールアドレスが第三者に提供されることはありません</small>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">お名前</label>
+            <input type="text" class="form-control" id="InputName" placeholder="漢口 太郎">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">電話番号</label>
+            <input type="text" class="form-control" id="InputPhoneNumber" placeholder="123-4567-8900">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">お問い合わせカテゴリ</label>
+            <select id="inputState" class="form-control">
+              <option selected>選択してください</option>
+              <option value="form_repair">修理に関するお問い合わせ</option>
+              <option value="form_stove">ストーブ購入に関するお問い合わせ</option>
+              <option value="form_core">ストーブ芯の購入に関するお問い合わせ</option>
+              <option value="form_other">その他のお問い合わせ</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">お問い合わせ内容</label>
+            <textarea class="form-control" id="InputContent" rows="3"></textarea>
+          </div>
+
+
+          <p>お問い合わせ内容</p>
+          <textarea name="form_content" rows="8" cols="80"></textarea></br>
+
+          <button class="btn btn-primary" type="submit" name="button">送信</button>
+
+          <p>後ほどXXX@gmail.comからご指定のメールにご連絡します。</p>
+
+        </form>
       </div>
 
   <!--
