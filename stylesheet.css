@@ -130,6 +130,11 @@ h2 {
   align-items: center;
 }
 
+.area img {
+  width: 400px;
+  height: auto;
+}
+
 .products {
   grid-row: 6 / 7;
 }
