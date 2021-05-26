@@ -125,14 +125,14 @@ if (isset($_POST['submitted'])) {
       <h4>送信完了</h4>
       <p>2~3営業日以内に連絡致します。</p>
       <hr>
-    <?php elseif(isset['result'] && !$result): //送信が失敗した場合 ?>
+    <?php elseif(isset($result) && !$result): //送信が失敗した場合 ?>
       <h4>送信失敗</h4>
       <p>送信に失敗しました。</br>しばらくして再度お試しいただくか、メールにてご連絡ください。</p>
       <p>メール:<a href="sirosirochloegg@gmail.com">Contact</a></p>
       <hr>
     <?php endif; ?>
 
-    <form id="form" class="contact__form" method="post">
+    <form id="form" class="contact__form" method="post" novalidate><!-- novalidateはrequiredをストップさせるために使う。サーバー側でバリデーションの動作確認をしてから、novalidateを消してブラウザ側のバリデーションをオンにする。 -->
       <div class="form-group">
         <label for="name">お名前</label>
         <input type="text" class="form-control" id="name" name="name" placeholder="漢口 太郎" required value="<?php echo h($name) ?>">
@@ -144,11 +144,11 @@ if (isset($_POST['submitted'])) {
       </div>
       <div class="form-group">
         <label for="tel">電話番号(半角英数字でご入力ください)</label>
-        <input type="tel" class="form-control" id="tel" name="tel" placeholder="123-4567-8900">
+        <input type="tel" class="form-control" id="tel" name="tel" placeholder="123-4567-8900" required>
       </div>
       <div class="form-group col-md-4">
         <label for="subject">お問い合わせカテゴリ</label>
-        <select id="subject" class="form-control">
+        <select id="subject" class="form-control" required>
           <option selected>選択してください</option>
           <option value="form_repair">修理に関するお問い合わせ</option>
           <option value="form_stove">ストーブ購入に関するお問い合わせ</option>
