@@ -119,6 +119,8 @@ if (isset($_POST['submitted'])) {
 
   <body>
 
+    <?php include_once (dirname(__FILE__).'/../header.php'); ?>
+
     <div class="container contact">
       <h2>お問い合わせ</h2>
       <?php if(isset($_GET['result']) && $_GET['result']): //送信が成功した場合 ?>
