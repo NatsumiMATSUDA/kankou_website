@@ -14,7 +14,7 @@
 
     <div class="wrapper">
 
-      <?php include('./headere.php'); ?>
+      <?php include('./header.php'); ?>
 
       <div class="main-visual">
         <div class="main-visual_content">
@@ -130,16 +130,8 @@
         048-822-4890</h3>
       </a>
   -->
-      <footer>
-        <h3>有限会社 漢口商会</h3>
-        <p>埼玉県さいたま市浦和区仲町1-9-13カンコウビル1階</br>
-          電話番号: 048-822-4890
-        </p>
-        <div class="">
 
-        </div>
-
-      </footer>
+      <?php include('./footer.php'); ?>
 
 
     </div>
