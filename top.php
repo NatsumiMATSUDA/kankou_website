@@ -42,12 +42,17 @@
       <div class="container area">
         <h2>出張範囲</h2>
         <!-- 画像入れる-->
-        <img src="images/saitama.gif" alt="出張範囲">
-        <h3>さいたま市10区・蕨市・川口市・上尾市</h3>
-        <h4>その他の地域への出張修理</br>につきましては、ご相談ください。</h4>
+        <div class="area__flex">
+          <div class="area__image">
+            <img src="images/saitama.gif" alt="出張範囲">
+          </div>
+          <div class="area__text">
+            <h3>さいたま市10区・蕨市・川口市・上尾市</h3>
+            <h4>その他の地域への出張修理</br>につきましては、ご相談ください。</h4>
 
-        <a class="btn btn-primary" href="tel:048-822-4890" role="button">修理依頼をする</br>048-822-4890</a>
-
+            <a class="btn btn-primary" href="tel:048-822-4890" role="button">修理依頼をする</br>048-822-4890</a>
+          </div>
+        </div>
       </div>
 
       <div class="container products">
@@ -85,7 +90,7 @@
 
       </div>
 
-      
+
 
 
   <!--
