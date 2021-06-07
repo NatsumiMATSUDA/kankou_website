@@ -13,7 +13,7 @@ body{
 
 .wrapper {
   display: grid;
-  grid-template-rows: auto 100vh auto 380px 450px 600px 500px auto 150px; /*縦方向の要素のサイズの指定(横線を定義)*/
+  grid-template-rows: auto 100vh auto 380px 440px 600px 500px auto 150px; /*縦方向の要素のサイズの指定(横線を定義)*/
 }
 
 .container {
@@ -167,11 +167,23 @@ h2 {
   grid-row: 5 / 6;
   background: rgba(38,19,172,0.8);
   align-items: center;
-  padding: 0;
 }
 
 .area__flex {
   display: flex;
+  justify-content: center;
+  padding: 40px 0 40px 0;
+  align-items: center;
+}
+
+.area__image {
+  padding: 5px;
+}
+
+
+.area__text {
+  padding: 5px;
+  text-align: center;
 }
 
 .area img {
