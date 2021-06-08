@@ -85,7 +85,6 @@
         <div class="access__content">
           <!-- Google Map -->
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.5124702056623!2d139.65215631499336!3d35.86095632770206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ea81e1082757%3A0xe684399917e9505b!2z77yI5pyJ77yJ5ryi5Y-j5ZWG5LyaIOaaluaIv-apn-WZqOS_rueQhumDqA!5e0!3m2!1sja!2sjp!4v1619706827927!5m2!1sja!2sjp" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          <p>浦和駅より徒歩6分</p>
         </div>
 
       </div>
