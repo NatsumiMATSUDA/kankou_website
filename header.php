@@ -4,7 +4,7 @@
   </h1>
   <nav>
     <ul>
-      <li><a href="#">会社概要</a></li>
+      <li><a href="#title">会社概要</a></li>
       <li><a href="#">修理依頼</a></li>
       <li><a href="#">出張範囲</a></li>
       <li><a href="#">製品販売</a></li>

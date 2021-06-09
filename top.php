@@ -26,6 +26,7 @@
 
       <div class="container about">
         <div class="about_content">
+          <a id="title">タイトル</a>
           <h2>会社概要</h2>
         </div>
       </div>
