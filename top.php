@@ -24,23 +24,22 @@
         </div>
       </div>
 
-      <div class="container about">
+      <section class="container about" id="about">
         <div class="about_content">
-          <a id="title">タイトル</a>
           <h2>会社概要</h2>
         </div>
-      </div>
+      </section>
 
-      <div class="container repair">
+      <section class="container repair">
         <div class="repair__content">
           <h2>修理依頼</h2>
           <h3>末長くアラジンブルーフレームを</br>お使いいただくために</h3>
           <p>熟練した技術で迅速な修理を致します。</br>お気軽にご相談ください。</p>
           <h4>埼玉県内唯一のアラジンブルーフレーム認定代理店です。</h4>
         </div>
-      </div>
+      </section>
 
-      <div class="container area">
+      <section class="container area" id="area">
         <h2>出張範囲</h2>
         <!-- 画像入れる-->
         <div class="area__flex">
@@ -54,9 +53,9 @@
             <a class="btn btn-primary" href="tel:048-822-4890" role="button">修理依頼をする</br>048-822-4890</a>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="container products">
+      <section class="container products" id="products">
         <h2>アラジンブルーフレーム販売</h2>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -79,16 +78,16 @@
             <span class="visually-hidden">Next</span>
           </a>
         </div>
-      </div>
+      </section>
 
-      <div class="container access">
+      <section class="container access" id="access">
         <h2>アクセス</h2>
         <div class="access__content">
           <!-- Google Map -->
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.5124702056623!2d139.65215631499336!3d35.86095632770206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ea81e1082757%3A0xe684399917e9505b!2z77yI5pyJ77yJ5ryi5Y-j5ZWG5LyaIOaaluaIv-apn-WZqOS_rueQhumDqA!5e0!3m2!1sja!2sjp!4v1619706827927!5m2!1sja!2sjp" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
-      </div>
+      </section>
 
 
 
