@@ -27,6 +27,7 @@
       <section class="container about" id="about">
         <div class="about_content">
           <h2>会社概要</h2>
+          <p>xxx年創業以来、アラジンブルーフレームの販売</br>および修理を行っております。</p>
         </div>
       </section>
 
