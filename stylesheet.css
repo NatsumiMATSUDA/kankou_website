@@ -131,6 +131,10 @@ h2 {
   grid-row: 3 / 4;
 }
 
+.about__content {
+  text-align: center;
+}
+
 .repair {
   grid-row: 4 / 5;
   /*background: linear-gradient(#000, #2613ac);グラデーション*/
