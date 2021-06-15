@@ -129,6 +129,7 @@ h2 {
 
 .about {
   grid-row: 3 / 4;
+  background-color: #00C0C6;
 }
 
 .about__content {
