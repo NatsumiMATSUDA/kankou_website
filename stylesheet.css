@@ -12,8 +12,10 @@ body{
 }
 
 .wrapper {
-  display: grid;
-  grid-template-rows: auto 100vh auto 380px 440px 600px 500px auto 150px; /*縦方向の要素のサイズの指定(横線を定義)*/
+  /*display: grid; */
+  /*grid-template-rows: auto 100vh 400px 380px 440px 600px 500px auto 150px; /*縦方向の要素のサイズの指定(横線を定義)*/
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -23,6 +25,7 @@ body{
 
 header {
   width: 100%;
+  height: auto;
   grid-row: 1 / 2;
   padding: 30px 50px 10px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -108,8 +111,7 @@ h2 {
 }
 
 .main-visual {
-  grid-row: 2 / 3;
-  /* height: 100vh; */
+  height: 100vh;
   background: url('images/stovefire2.png') center/ cover no-repeat;
   background-size: cover;
   align-items: center;
@@ -128,20 +130,35 @@ h2 {
 }
 
 .about {
-  grid-row: 3 / 4;
-  background-color: #00C0C6;
+  /*grid-row: 3 / 4;*/
+  height: 370px;
+  background: linear-gradient(#000, #00C0C6);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 
 .about__content {
+  position: absolute;
   text-align: center;
+  top: 50%;
+  left: 50%;
+  transform:translateY(-50%)translateX(-50%);
+  -webkit-　　　
+  transform:translateY(-50%)translateX(-50%);
+  margin-top: 40px;
 }
 
 .repair {
-  grid-row: 4 / 5;
+  /*grid-row: 4 / 5;*/
+  height: 380px;
+  width: 100%;
   /*background: linear-gradient(#000, #2613ac);グラデーション*/
   background: url('images/repairimage.jpg') center/ cover no-repeat;
   background-size: cover;
   position: relative;
+  margin-top: 100px;
 }
 
 .repair::before {
@@ -169,9 +186,21 @@ h2 {
 
 
 .area {
-  grid-row: 5 / 6;
-  background: rgba(38,19,172,0.8);
+  /*grid-row: 5 / 6;*/
+  height: 440px;
   align-items: center;
+  /*background-color: #008080;*/
+  /*background-color: 	#B6BC90;*/
+  margin-top: 100px;
+
+
+    /*斜め*/
+    /*
+    background:linear-gradient(to left top, #9690BC, #FFD2C0);
+    */
+
+  /*縦*/
+  background: linear-gradient(to right, #9EBC90 0%, #B4C6DA 100%);
 }
 
 .area__flex {
@@ -192,16 +221,20 @@ h2 {
 }
 
 .area img {
-  width: 400px;
+  width: 450px;
   height: auto;
 }
 
 .products {
-  grid-row: 6 / 7;
+  /*grid-row: 6 / 7;*/
+  height: 600px;
+  margin-top: 100px;
 }
 
 .access {
-  grid-row: 7 / 8;
+  /*grid-row: 7 / 8;*/
+  margin-top: 100px;
+  height: 500px;
   background: linear-gradient(#2613ac, #000);
   align-items: center;
 }
@@ -212,13 +245,17 @@ h2 {
 }
 
 .contact {
-  grid-row: 8 / 9;
+  /*grid-row: 8 / 9;*/
+  height: auto;
 }
 
 footer {
-  grid-row: 9 / 10;
+  /*grid-row: 9 / 10;*/
+  height: 150px;
+  margin-top: 100px;
   padding: 30px;
-  background-color: grey;
+  background-color: #00717A;
+
 }
 
 .footer h3 {

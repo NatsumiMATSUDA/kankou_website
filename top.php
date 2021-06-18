@@ -32,7 +32,7 @@
         </div>
       </section>
 
-      <section class="container repair">
+      <section class="container repair" id="repair">
         <div class="repair__content">
           <h2>修理依頼</h2>
           <h3>末長くアラジンブルーフレームを</br>お使いいただくために</h3>
@@ -49,8 +49,8 @@
             <img src="images/saitama.gif" alt="出張範囲">
           </div>
           <div class="area__text">
-            <h3>さいたま市10区・蕨市・川口市・上尾市</h3>
-            <h4>その他の地域への出張修理</br>につきましてはご相談ください。</h4>
+            <h3>さいたま市10区・蕨市</br>・川口市・上尾市</h3>
+            <p>その他の地域への出張修理につきましてはご相談ください。</p>
 
             <a class="btn btn-primary" href="tel:048-822-4890" role="button">修理依頼をする</br>048-822-4890</a>
           </div>
