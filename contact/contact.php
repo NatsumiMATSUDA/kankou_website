@@ -119,7 +119,7 @@ if (isset($_POST['submitted'])) {
 
   <body>
 
-    <?php include_once (dirname(__FILE__).'/../header.php'); ?>
+    <a class="to-top" href="../top.php">トップページへ戻る</a>
 
     <div class="container contact">
       <h2>お問い合わせ</h2>
