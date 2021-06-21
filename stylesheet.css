@@ -248,6 +248,7 @@ h2 {
 .contact {
   /*grid-row: 8 / 9;*/
   height: auto;
+  width: 500px;
 }
 
 footer {
