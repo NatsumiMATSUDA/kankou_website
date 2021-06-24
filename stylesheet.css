@@ -110,6 +110,12 @@ h2 {
   font-weight: normal;
 }
 
+h4 {
+  padding: 0;
+  margin: 0;<!-- doesn't seem to work-->
+  font-size: 12px;
+}
+
 .main-visual {
   height: 100vh;
   background: url('images/stovefire2.png') center/ cover no-repeat;
@@ -131,7 +137,7 @@ h2 {
 
 .about {
   /*grid-row: 3 / 4;*/
-  height: 370px;
+  height: 360px;
   background: linear-gradient(#000, #00C0C6);
   position: relative;
   margin-left: auto;
@@ -182,6 +188,7 @@ h2 {
   -webkit-　　　
   transform:translateY(-50%)translateX(-50%);
   margin:auto;
+  width: 600px;<!-- won't work!-->
 }
 
 
@@ -249,6 +256,10 @@ h2 {
   /*grid-row: 8 / 9;*/
   height: auto;
   width: 500px;
+}
+
+.contact-buttom {
+  margin: 30px;
 }
 
 footer {

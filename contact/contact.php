@@ -163,7 +163,7 @@ if (isset($_POST['submitted'])) {
           <textarea class="form-control" id="body" name="body" placeholder="お問い合わせ内容をご入力ください" rows="3"></textarea>
         </div>
 
-        <button class="btn btn-primary" type="submit"　name="submitted">送信</button>
+        <button class="btn btn-primary contact-buttom" type="submit"　name="submitted">送信</button>
         <p>後ほどXXX@gmail.comからご指定のメールにご連絡致します。</p>
       </form>
   </div>
