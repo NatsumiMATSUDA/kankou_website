@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body{
@@ -19,7 +20,7 @@ body{
 }
 
 .container {
-  padding: 30px 5px 30px 5px;
+  padding: 3rem 0.5rem 3rem 0.5rem;
 }
 
 
@@ -27,7 +28,7 @@ header {
   width: 100%;
   height: auto;
   grid-row: 1 / 2;
-  padding: 30px 50px 10px;
+  padding: 3rem 5rem 1rem;
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed; /*絶対位置で場所を指定*/
   top: 0; /*topから0pxのところに配置したい*/
@@ -43,9 +44,9 @@ p.error, span.error {
 }
 /* フォーム要素（Bootstrap4 のスタイルを上書き） */
 .form-control {
-  border-radius: 0px;
+  border-radius: 0;
   background-color: #fdfdfd;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 .form-control:focus {
   border-color: #aadbe8;
@@ -56,29 +57,29 @@ p.error, span.error {
 }
 /* Google Chrome, Safari, Opera 15+, Android, iOS */
 ::-webkit-input-placeholder {
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 /* Firefox 18- */
 :-moz-placeholder {
-  font-size: 13px; }
+  font-size: 1.3rem; }
 /* Firefox 19+ */
 ::-moz-placeholder {
-  font-size: 13px; }
+  font-size: 1.3rem; }
 /* IE 10+ */
 :-ms-input-placeholder {
-  font-size: 13px; }
+  font-size: 1.3rem; }
 ::placeholder{
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 textarea.form-control {
-  height: 200px;
+  height: 20rem;
 }
 
 
 h1 {
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 a {
@@ -97,27 +98,27 @@ ul {
 }
 
 li {
-  margin: 0 0 0 15px;
-  font-size: 14px;
+  margin: 0 0 0 1.5rem;
+  font-size: 1.4rem;
 }
 
 h2 {
   margin: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   text-align: center;
-  font-size: 27px;
+  font-size: 2.7rem;
   font-weight: normal;
 }
 
 h4 {
   padding: 0;
   margin: 0;<!-- doesn't seem to work-->
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .main-visual {
-  height: 100vh;
+  height: 100%;
   background: url('images/stovefire2.png') center/ cover no-repeat;
   background-size: cover;
   align-items: center;
