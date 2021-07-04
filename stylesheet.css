@@ -15,6 +15,7 @@ body{
 .wrapper {
   /* display: grid; */
   /* grid-template-rows: auto 100vh 400px 380px 440px 600px 500px auto 150px; /*縦方向の要素のサイズの指定(横線を定義)*/ */
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -119,7 +120,7 @@ h4 {
 
 .main-visual {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background: url('images/stovefire2.png') center/ cover no-repeat;
   background-size: cover;
   align-items: center;
