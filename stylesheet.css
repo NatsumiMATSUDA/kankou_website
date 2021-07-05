@@ -115,7 +115,11 @@ h2 {
 h4 {
   padding: 0;
   margin: 0;/*doesn't seem to work*/
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.9rem;
 }
 
 .main-visual {
@@ -140,7 +144,7 @@ h4 {
 
 .about {
   /*grid-row: 3 / 4;*/
-  height: 360px;
+  height: 45rem;
   background: linear-gradient(#000, #00C0C6);
   position: relative;
   margin-left: auto;
@@ -156,7 +160,7 @@ h4 {
   transform:translateY(-50%)translateX(-50%);
   -webkit-　　　
   transform:translateY(-50%)translateX(-50%);
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 
 .repair {
