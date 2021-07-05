@@ -114,7 +114,7 @@ h2 {
 
 h4 {
   padding: 0;
-  margin: 0;<!-- doesn't seem to work-->
+  margin: 0;/*doesn't seem to work*/
   font-size: 1.2rem;
 }
 
