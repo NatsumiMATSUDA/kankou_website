@@ -1,7 +1,5 @@
 <header>
-  <h1>
-    <a href="../top.php">漢口商会</a>
-  </h1>
+  <a href="../top.php">漢口商会</a>
   <nav>
     <ul>
       <li><a href="#about">会社概要</a></li>
