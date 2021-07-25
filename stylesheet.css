@@ -196,7 +196,7 @@ p {
   -webkit-　　　
   transform:translateY(-50%)translateX(-50%);
   margin:auto;
-  width: 600px;<!-- won't work!-->
+  width: 600px;/*don't work!!*/
 }
 
 
