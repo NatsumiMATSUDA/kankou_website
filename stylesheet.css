@@ -192,10 +192,10 @@ p {
   text-align: center;
   top: 50%;
   left: 50%;
-  transform:translateY(-50%)translateX(-50%);
+  transform: translateY(-50%)translateX(-50%);
   -webkit-　　　
-  transform:translateY(-50%)translateX(-50%);
-  margin:auto;
+  transform: translateY(-50%)translateX(-50%);
+  margin: auto;
   width: 600px;/*don't work!!*/
 }
 
