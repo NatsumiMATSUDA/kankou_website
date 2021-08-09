@@ -136,7 +136,7 @@ if (isset($_POST['submitted'])) {
 
       <form id="form" class="contact__form" method="post" novalidate><!-- novalidateはrequiredをストップさせるために使う。サーバー側でバリデーションの動作確認をしてから、novalidateを消してブラウザ側のバリデーションをオンにする。 -->
         <div class="form-group">
-          <label for="name">お名前</label>
+          <label for="name">お名前</label><!-- labelのforとinputのidで紐づいている -->
           <input type="text" class="form-control" id="name" name="name" placeholder="漢口 太郎" required value="<?php echo h($name) ?>">
         </div>
         <div class="form-group">
